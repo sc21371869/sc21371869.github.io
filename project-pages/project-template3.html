@@ -68,18 +68,15 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Amazon Hackathon Challenge 2022</div>
-        <div class="body-text"></div>
-        <div class="subheader-text">Problem Statement:</div>
-        <div class="body-text"></div>
-        <div class="body-text">Given online sales data of Dog Food generate a process to evaluate a "WOOF" score - a numeric output of a function or model that will indicate the appropriateness in advertising a dog food brand with epect to other selected features.</div>
-        <image class="project-header-image" src="../assets/images/PngItem_322747.png">
-      </div>
+        <div class="main-title">Sentiment Analysis on IMDB Movie Reviews🍿</div>
         <div class="subheader-text">Project Summary:</div>
-        <div class="body-text">1) Exploratory Data Analysis</div>
-        <div class="body-text">2) Predictive Modeling (Agglomerative Clustering, K-means Clustering)</div>
-        <div class="body-text">3) Evaluation, Analysis & Insights</div>
+        <div class="body-text">1) Data Preparation: Tokenization, Stopwords Removal & Stemming</div>
+        <div class="body-text">2) Text Vectorization</div>
+        <div class="body-text">3) Text Classification</div>
 
+        <image class="project-header-image" src="../assets/images/1.png">
+      </div>
+      
       <!-- PROJECT DETAILS -->
       <!-- 
         TODO
@@ -89,32 +86,59 @@
       -->
       <div id="project-details">
         <div class="subheader-text">Project Detail:</div>
-        <div class="body-text"></div>
         <div class="project-details-content">
-          <div class="body-text">The goal of this project is to help a dog food brand that currently has only one product with their new product strategy: expand their product line with a new product that targets exisiting customers with a similar price range as their exisiting product.</div>
+          <div class="body-text">The goal of this project is to train computers to understand human languages using Natural Language Processing (NLP). </div>
 
-          <div class="body-text">We take the clusters generated using our unsupervised learning models (Agglomerative Clustering and K-means Clustering) to caculate the "WOOF" score. Since the goal is to maximize profits, we calculate the revenue, i.e. the average of price times quantity for each cluster and rank the clusters based on the average revenue of each cluster. Lastly, we nornalize the revenue to between 0 and 1 and call this the "WOOF" score.</div>
+          <div class="body-text">Before the data could be used for problems based on NLP, the textual movie review dataset has to be prepared with tokenization, stopwords removal and stemming. Later, we transform all the text tokens into numerical vectors. After performing text vectorization on the review column, we split the data into training and test sets. Finally, we prepare a text classification model for sentiment classification.</div>
 
-          <div class="body-text">With our "WOOF" score, we are able to identify the best performing brand - the brand which has the highest occurrence in the most-valuable cluster which generates the highest average revenue. In addition, we can develop a product strategy based on their product in the similar price range and develop a product strategy accordingly.</div>
-          <div class="body-text"></div>
+          <div class="body-text">The dataset used to train a sentiment classification model contains movie reviews, so we can test the model by giving a movie review as an input. Entering the text "such a great movie!" would give us [“positive”].</div>
+
+        </div>
       </div>
-      <a class="button" href="../Amazon_Hackthon_2022.html" target="_blank">
-        <span class="button-text">Python Code (using Numpy, Pandas, Seaborn, Matplotlib, Scikit-Learn)</span>
+      <a class="button" href="../IMDB_movie_reviews_for_the_sentiment_classification  (NLP using Python) .html" target="_blank">
+        <span class="button-text">Python Code (using Numpy, Pandas, Seaborn, Matplotlib, Scikit-learn, NLTK)</span>
         <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
       </a>
-          <div class="body-text"></div>
-      <a class="button" href="../Diva Coders - Amazon x Columbia Hackathon.pdf" target="_blank">
-        <span class="button-text">Presentation Slides</span>
-        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-      </a>
-          <div class="body-text"></div>
-      <div class="subheader-text">Presentation Video</div>
-    
-      <video controls>
-        <source src="https://drive.google.com/file/d/1gH9sqALB5rYse4UBABW4J_Vq3BcosFRl/view?usp=sharing" type="video/mp4">
-      </video>
- 
 
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/3.png" class="gallery-image">
+              
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/word_cloud.png" class="gallery-image">
+             
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/worst movie.png" class="gallery-image">
+              
+            </div>
         </div>
       </div>
     </div>

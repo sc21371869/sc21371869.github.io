@@ -1,0 +1,204 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/IMG_9264.png" />
+     <title>Sophia's Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Sophia's Portfolio</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:sc5083@columbia.edu">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Exploratory Data Analysis on Hotel Booking Demand 🏨 </div>
+       
+      </div>
+        <div class="subheader-text">Project Summary:</div>
+        <div class="body-text">1) Data Preparation</div>
+        <div class="body-text">2) Data Cleaning</div>
+        <div class="body-text">3) Data Visualization</div>
+        <div class="body-text">4) Exploratory Data Analysis</div>
+
+        <div class="subheader-text">This project aims to explore the following questions:</div>
+        <div class="body-text">✈️ 1) Where do the guests come from?</div>
+        <div class="body-text">💰 2) How much do guests pay for a room per night?</div>
+        <div class="body-text">📈 3) How does the price per night vary over the year?</div>
+        <div class="body-text">😮‍💨 4) Which are the busiest month?</div>
+        <div class="body-text">📊 5) Bookings by market segment.</div>
+        <div class="body-text">❌ 6) How many bookings were canceled?</div>
+        <div class="body-text">💸 7) Which month has the highest number of cancelations?</div>
+        <div class="body-text">🔁 8) Repeated guest effect on cancellations.</div>
+        <div class="body-text">🌃 9) The number of nights spent at hotels.</div>
+        <div class="body-text">🏝 10) Hotel type with more time spent.</div>
+        <div class="body-text">💵 11) Effects of deposit on cancellations by segments.</div>
+        <div class="body-text">⏳ 12) Relationship of lead time with cancellation.</div>
+        <div class="body-text">🗂 13) Monthly customers and cancellations.</div>
+
+         <a class="button" href="../EDA hotel bookings .html" target="_blank">
+              <span class="button-text">Python Code (using Numpy, Pandas, Seaborn, Matplotlib)</span>
+              <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+         </a>
+
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Inferences and Conclusion:</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/portugal.png" class="gallery-image">
+              <span class="image-caption">A disproportionately high number of bookings are from Portugal, probably because the hotel is located in Portugal itself. The second country is the United Kingdom which is approx. 75% behind.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/priceperson.png" class="gallery-image">
+              <span class="image-caption">From all bookings which were not cancelled, across all room types and meals, the average prices per night and person are: Resort hotel: 47.56 € / City hotel: 59.29 €.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/overthey.png" class="gallery-image">
+              <span class="image-caption">Resort hotel prices are much higher during August when it is summer season in Portugal. City hotel prices varies less and is higher during May and September.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/canceled.png" class="gallery-image">
+              <span class="image-caption">Repeated guests generally do not cancel their reservations but there are some exceptions. Also most of the customers are not repeated guests.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/weeks.png" class="gallery-image">
+              <span class="image-caption">Most people do not seem to prefer to stay at the hotel for more than 1 week. But it seems normal to stay in resort hotels for up to 2 weeks.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/segments.png" class="gallery-image">
+              <span class="image-caption">Cancellation rate for groups is greater than 50%. For offline TA/TOs (Travel Agents/Tour Operators) and online TAs, cancellation rates are both greater than 33%. Direct segment have a lower rate of cancellation.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/lead.png" class="gallery-image">
+              <span class="image-caption">When lead time exceeds about 60, guests frequently cancel their bookings (cancellation rate is higher after this point).</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/average cus.png" class="gallery-image">
+              <span class="image-caption">City hotels receive more guests throughout the year compared with Resort hotels, having two peaks in spring and fall when rates are the highest. From June through September fewer guests stay at the Resort hotel when costs are at their greatest. Winter season draws the fewest visitors to both hotels.</span>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+     
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/sophia-chan-shuichan/">
+        <image src="../assets/icons/icons8-linkedin-circled.gif" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:sc5083@columbia.edu">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+<footer>
+  <p class="copyright text-muted" align="center">Copyright © 2022 Sophia Chan</p>
+</footer>
+	</body>
+</html>
