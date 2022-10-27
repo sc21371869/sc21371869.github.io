@@ -1,0 +1,3 @@
+git add -A .
+git commit -m "update"
+git push https://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@github.com/sc21371869/sc21371869.github.io.git
